@@ -1,5 +1,5 @@
 # vincowl/Grav-PHP-Nginx-v2
-This is derivated from ![dsavell/grav](https://github.com/dsavell/grav)
+This is derivated from ![dsavell/docker-grav](https://github.com/dsavell/docker-grav)
 
 ![grav](https://getgrav.org/user/pages/media/grav-logo.svg)
 
@@ -19,7 +19,7 @@ The underlying architecture of Grav is built using well established and best-in-
 
 ## What is vincowl/Grav-PHP-Nginx-v2 ?
 
-This is derivated from ![dsavell/grav](https://github.com/dsavell/grav)
+This is derivated from ![dsavell/docker-grav](https://github.com/dsavell/docker-grav)
 It is a Docker image based on minideb:bullseye linux with Grav CMS and PHP8.0/nginx.
 
 ## Container Information
