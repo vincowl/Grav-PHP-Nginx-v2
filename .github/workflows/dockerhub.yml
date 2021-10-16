@@ -35,9 +35,11 @@ jobs:
           push: true
           tags: vincowl/grav-php-nginx-v2:latest, vincowl/grav-php-nginx-v2:${{ steps.grav-version.outputs.grav-version }}
 
-      - name: Update repo description
+      - name: Update DockerHub description
         uses: peter-evans/dockerhub-description@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
           repository: vincowl/grav-php-nginx-v2
+          short-description: ${{ github.event.repository.description }}		
+
