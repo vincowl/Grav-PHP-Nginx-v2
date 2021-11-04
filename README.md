@@ -1,3 +1,5 @@
+![foo](https://github.com/vincowl/Grav-PHP-Nginx-v2/actions/workflows/dockerhub.yml/badge.svg)
+
 # vincowl/Grav-PHP-Nginx-v2
 This is derivated from ![dsavell/docker-grav](https://github.com/dsavell/docker-grav)
 
